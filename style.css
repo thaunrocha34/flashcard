@@ -1,1 +1,26 @@
-h
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{ 
+  pedding: 15px 25px; 
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.cartao{
+    width: 260px;
+    height: 200px;
+}
+
+.cartao-frente, .cartao-verso {
+    width:100%
+}
+
+body{ 
+  display: flex;  
+  flex-direction: column; 
+  min-height: 100vh;
+}
